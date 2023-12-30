@@ -1,0 +1,54 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+        margin-top: 10px;
+    }
+
+    .snake_game {
+        height: 600px;
+        width: 600px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        background-color: grey;
+        border-radius: 20px;
+
+        .game_title {
+            height: 20px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .game_area {
+            height: 540px;
+            width: 540px;
+
+            padding: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            color: white;
+
+            background-color: black;
+
+            .area {
+                width: 50px;
+                height: 50px;
+                border: 2px solid white;
+                background-color: green;
+            }
+        }
+    }
+}
